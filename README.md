@@ -74,8 +74,8 @@ srcAction : '+ 1 year endof week', // action for transforming that date
 srcForce : true, // force dependency when widget opens - even if date is already set
 ```
 ### srcSelector
-A jQuery selector string for a dom element that holds a string retrievable by "`$(srcSelector).val()`". 
-That string should be in a form that it results in a JavaScript Date object when parsed with "`$.datepicker.parse(srcFormat,datestring)`".
+A jQuery selector string for a dom element that holds a string retrievable by `$(srcSelector).val()`. 
+That string should be in a form that it results in a JavaScript Date object when parsed with `$.datepicker.parse(srcFormat,datestring)`.
 
 ### srcFormat
 A string for parsing a date. Please look here: http://api.jqueryui.com/datepicker/#utility-parseDate .
