@@ -9,7 +9,9 @@
 						setInitialRelativeDate(ele, options);
 					}
 				}
-				addButtons(ele, options);
+				if (options.buttons && options.buttons.length) {
+					addButtons(ele, options);
+				}
 			}
 		}, options);
 		$(ele).datepicker(settings);
