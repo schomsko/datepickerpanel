@@ -40,7 +40,8 @@
 	var buildButtonEles = function(ele, options) {
 		var eles = [];
 		$.each(options.buttons, function(index, val) {
-			var classes = (val.class != undefined) ? 'class="' + val.class + '"' : '';
+			var classes = (val.classAttr != undefined) ? 'class="' + val.classAttr + '"' : '';
+			console.log(val);
 			var label = (val.label != undefined) ? val.label : '';
 			var id = (val.id != undefined) ? 'id="' + val.id + '"' : '';
 			var button = $('<button ' + id + ' type="button" ' + classes + '>' + label + '</button>');
