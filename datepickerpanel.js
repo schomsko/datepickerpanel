@@ -1,3 +1,4 @@
+;
 (function($) {
 	// init extends the options and inits the jquery ui datepicker
 	var init = function(ele, options) {
